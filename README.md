@@ -7,6 +7,7 @@ This is a repository that documents all the tricks and tips I have come across w
 * Reference a range using **:**, for example G4:G8 for a column and G4:L8 to reference a matrix selection
 * Use **format painter**,(below the cut and copy options),which enables you to select the format of a cell that you like and then apply it to other cells you click
 * If you see a series of '#' signs in excel like this, ##############, that means there are numbers in that column and the column needs to be expanded in order to see those numbers. It isn't wide enough. Double click to make it fit perfectly
+* **Conditional formating**. You can choose a different highlight or format of a cell based on value or other attributes
 
 
 ## Formula
@@ -20,4 +21,7 @@ This is a repository that documents all the tricks and tips I have come across w
 
 Unlike formula this isn't user defined. Rather it is predefined and already exists
 
-* VLOOKUP - Provide ranges for the data and give it value or a grade. like 0-60% is F, 60-70 is D, 80-90 is A. You just need to have the lower limits and then the corresponding grades in the column beside it. Give this as the table array and lookup values of a particular column and return the value from column 2 in your table array which are the grades
+* **VLOOKUP** - Provide ranges for the data and give it value or a grade. like 0-60% is F, 60-70 is D, 80-90 is A. You just need to have the lower limits and then the corresponding grades in the column beside it. Give this as the table array and lookup values of a particular column and return the value from column 2 in your table array which are the grades
+* **=CONCATENATE($E$6," < ",$E$7)** - this gives us something like *75 < 100* in the cell
+* **IF** - (Condition,value if true, value if false) . This is like the conditional operator in python with the (a<b)?a:b
+* **IFERROR** - Dynamic amortization tables. returns a custom result when a formula generates an error, and a standard result when no error is detected. You can default it to leave empty cells. =IFERROR (value/function/formula, value_if_error)
