@@ -25,3 +25,17 @@ Unlike formula this isn't user defined. Rather it is predefined and already exis
 * **=CONCATENATE($E$6," < ",$E$7)** - this gives us something like *75 < 100* in the cell
 * **IF** - (Condition,value if true, value if false) . This is like the conditional operator in python with the (a<b)?a:b
 * **IFERROR** - Dynamic amortization tables. returns a custom result when a formula generates an error, and a standard result when no error is detected. You can default it to leave empty cells. =IFERROR (value/function/formula, value_if_error)
+
+
+## Charts(or Graphs)
+
+(Dynaic visualization of GDP and life expectancy yearly)[http://www.gapminder.org/world/]
+(Flight path mapped)[http://www.aaronkoblin.com/]
+
+* You can select the headers along with the data and then chart it out to have the titles also written automatically
+* Don't use the total or the sum amount while plotting. make sure you avoid it to not get an incorrect graph
+* You can also have miniature small graphs for each row in the data as a separate column. These are called **spark lines**. You can also select high point or low point for it.
+* You can also add a trend line to a scatter or line plot
+* You can switch row and column data with most charts but maybe not with scatter plots
+* 
+
