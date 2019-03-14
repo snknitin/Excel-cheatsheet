@@ -15,3 +15,9 @@ This is a repository that documents all the tricks and tips I have come across w
 * If you want to type the formula and siplay it, use a single quote before the = to print the whole formula in that cell(kind of like an escape character)
 * Order of operations : Parentheses, Exponents, Multiplication, Division, Addition, Subtraction
 
+
+## Functions
+
+Unlike formula this isn't user defined. Rather it is predefined and already exists
+
+* VLOOKUP - Provide ranges for the data and give it value or a grade. like 0-60% is F, 60-70 is D, 80-90 is A. You just need to have the lower limits and then the corresponding grades in the column beside it. Give this as the table array and lookup values of a particular column and return the value from column 2 in your table array which are the grades
