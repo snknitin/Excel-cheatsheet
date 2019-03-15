@@ -13,7 +13,7 @@ This is a repository that documents all the tricks and tips I have come across w
    * sort the rows
    * filter blanks
 * If you want to transpose the rows and columns, Copy the data, ad then paste it by selecting the transpose option 
-
+* **Freeze Pane** option allow you to freeze the rows and columns to the left and above the selected row allowing you to scroll through the data horizontally or vertically without missing track fo what columsn or rows you are looking at, since those are frozen
 
 
 ## Formula
@@ -44,4 +44,27 @@ Unlike formula this isn't user defined. Rather it is predefined and already exis
 * You can also add a trend line to a scatter or line plot
 * You can switch row and column data with most charts but maybe not with scatter plots
 * You can create a chart and then copy values of another column and paste it onto the chart 
+
+
+## Data Manipulation
+
+* Get unique records from advance filter or use **Remove duplicates** and select which combination of columns to consider as unique indexes
+* You can do a **multiple sequential sort criterias**(Like sort by first name, then sort by salary range) by sorting first with one column and then **Add level** and give other sorting criteria
+* If there are blank columns in between your data columns then they might get considered as separate tables and rows won't be sorted together
+* **Sub-totalling data** - You can sort by some criteria and then at each change in some category value, you can apply a function that operated on that group sorted above the next group of rows and have sub-totals. Helpful when you want to get some monthly or daily estimates, you can sort by month and based on every change in month get averages or sums
+
+
+## Pivot tables and charts
+
+* Might not update immediately if the soruce data changes.  
+* It is possible to group items in pivot tables
+* Slicers also data to be filtered in a more visual way. Choose **Insert slicer** and then selecting column will give you a slicer with all the unique values and you and view different selections by clicking
+* You can also select a **Pivot Chart** and that also changes dynamically based on your selections 
+
+
+
+
+
+
+
 
