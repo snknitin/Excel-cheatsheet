@@ -35,8 +35,8 @@ Unlike formula this isn't user defined. Rather it is predefined and already exis
 
 ## Charts(or Graphs)
 
-(Dynaic visualization of GDP and life expectancy yearly)[http://www.gapminder.org/world/]  
-(Flight path mapped)[http://www.aaronkoblin.com/]   
+[Dynamic visualization of GDP and life expectancy yearly](http://www.gapminder.org/world/)    
+[Flight path mapped](http://www.aaronkoblin.com/)      
 
 * You can select the headers along with the data and then chart it out to have the titles also written automatically
 * Don't use the total or the sum amount while plotting. make sure you avoid it to not get an incorrect graph
